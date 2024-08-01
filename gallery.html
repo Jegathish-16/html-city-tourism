@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #343a40;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #495057;
+        }
+        .gallery {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ced4da;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            text-align: center;
+            color: #007bff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="City Logo">
+        <h1>Gallery of Maldives</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heritage.html">Heritage</a></li>
+                <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Beautiful Hotels</h2>
+            <div class="gallery">
+                <img src="hotel-1.jpeg" alt="Gallery Image 1">
+                <img src="hotel-2.jpeg" alt="Gallery Image 2">
+                <img src="hotel-3.jpeg" alt="Gallery Image 3">
+                <img src="hotel-4.jpeg" alt="Gallery Image 4">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 happy Tourism</p>
+    </footer>
+</body>
+</html>
